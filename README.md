@@ -62,3 +62,9 @@ Lógica de cálculo automatizado
 
 ✅ Concluído (versão funcional)
 🔄 Possível evolução para integração com BI ou sistemas web
+
+## 📸 Demonstração
+
+![Entrada](images/entrada.png)
+![Resultados](images/resultados.png)
+![Distribuição](images/distribuicao.png)
