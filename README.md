@@ -66,5 +66,16 @@ Lógica de cálculo automatizado
 ## 📸 Demonstração
 
 ![Entrada](images/entrada.png)
+Tudo começa inserindo o valor de sua Capacidade de Produção, este valor deve ser maior ou igual ao valor de sua demanda que são os valores dos pedidos e prazos em número de semanas de saias e croppeds de cada cliente.
+
+Procurar uma demanda que você tem condições de suprir é essencial. Estas são as unicas variáveis necessárias para os calculos
+
+![Distribuição](images/distribuicao1.png)
+
+![Distribuição](images/distribuicao2.png)
+
+![Distribuição](images/distribuicao3.png)
+
+![Distribuição](images/distribuicao4.png)
+
 ![Resultados](images/resultados.png)
-![Distribuição](images/distribuicao.png)
