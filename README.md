@@ -71,6 +71,20 @@ Tudo começa inserindo o valor de sua Capacidade de Produção, este valor deve 
 Procurar uma demanda que você tem condições de suprir é essencial. Estas são as unicas variáveis necessárias para os calculos
 
 ![Distribuição](images/distribuicao1.png)
+Nosso calculo começa nas metas de produção, elas são o somatório de entregas que você irá produzir por mês (4 semanas) entregando por semana.
+Você sabera se seu planejamento é viável se o total produzido atingir meta antes que a semana da meta termine.
+Como você pode notar, nesta logica você irá entregar os pedidos um cliente de cada vez, primeiro o de 4 semanas, depois o de 8 e por fim o de 12 semanas. Quando a meta de um cliente é batida, o excedente é automaticamente direcionado para o proximo cliente na fila.
+A mesma lógica é aplicada às variáveis separadamente, que são:
+Clientes = C
+Varejo = V
+    - Cropped(C)
+    - Saia(C)
+    - Cropped(C) + Saia(C)
+    - Cropped(V)
+    - Cropped(V) | Cropped(V)+Cropped(C)
+    - Saia(V)
+    - Saia(V) | Saia(V)+Saia(C)
+    - Cropped(C)+Cropped(V)+Saia(C)+Saia(V)
 
 ![Distribuição](images/distribuicao2.png)
 
